@@ -1,0 +1,10 @@
+<h1>Spam mailer</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<form action="/home/spam">
+  Receiver :<input type="text" name = "to"><br>
+  title : <input type="text" name = "title"><br>
+  text : <input type="text" name = "text"><br>
+  <input id="x" type="hidden" name="content">
+  <trix-editor input="x"></trix-editor>
+  <input type="submit">
+</form>
